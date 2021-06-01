@@ -1,7 +1,6 @@
 {
   "name": "natours-project",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "gh-pages": "^3.1.0",
@@ -9,10 +8,18 @@
   },
   "devDependencies": {},
   "scripts": {
-    "deploy":"gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "homepage":"https://mariya1705.github.io/SCSS-NatoursProject"
+  "homepage": "https://mariya1705.github.io/SCSS-NatoursProject",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariya1705/SCSS-NatoursProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mariya1705/SCSS-NatoursProject/issues"
+  },
+  "description": ""
 }
